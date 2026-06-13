@@ -1,0 +1,58 @@
+# Environment variables and API keys — NEVER commit these
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys
+api_keys.txt
+credentials.json
+secrets.json
+
+# Node modules (if running Flowise locally)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Flowise local data
+.flowise/
+flowise.db
+flowise.db-journal
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python (if any scripts used)
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+
+# Large data files (upload separately)
+*.pdf
+*.csv
